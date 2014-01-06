@@ -250,13 +250,13 @@
             <artifactId>httpclient</artifactId>
             <groupId>org.apache.httpcomponents</groupId>
             <type>jar</type>
-            <version>4.1.2</version>
+            <version>4.3.1</version>
         </dependency>
         <dependency>
             <artifactId>httpcore</artifactId>
             <groupId>org.apache.httpcomponents</groupId>
             <type>jar</type>
-            <version>4.1.2</version>
+            <version>4.3</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
