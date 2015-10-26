@@ -6,7 +6,10 @@ jdk:
   - openjdk6
 
 before_install:
-  - ./before_install.sh
+  - git clone https://github.com/rage/tmc-langs.git
+  - mvn clean install -q -U -Dmaven.test.skip=true -f tmc-langs/pom.xml
+  - git clone https://github.com/rage/tmc-core.git
+  - mvn clean install -q -U -Dmaven.test.skip=true -f tmc-core/pom.xml
 
 cache:
   directories:
